@@ -1,0 +1,18 @@
+# kiwoompy
+
+> 키움증권 REST API Python 라이브러리
+
+키움증권 OpenAPI(https://openapi.kiwoom.com)를 Python에서 간편하게 사용할 수 있도록 만든 라이브러리입니다.
+
+## 문서
+
+- [홈](https://meonji-gogo.github.io/kiwoompy/): 키움증권 REST API Python 라이브러리
+- [시작하기](https://meonji-gogo.github.io/kiwoompy/getting-started/): kiwoompy 설치부터 접근토큰 발급까지의 기본 흐름을 안내합니다.
+- [개요](https://meonji-gogo.github.io/kiwoompy/api/): kiwoompy의 전체 공개 API 목록입니다.
+- [인증 (auth)](https://meonji-gogo.github.io/kiwoompy/api/auth/): 키움증권 OAuth2 접근토큰 발급 및 유효성 관리를 담당하는 모듈입니다.
+- [HTTP 클라이언트 (api)](https://meonji-gogo.github.io/kiwoompy/api/client/): KiwoomApi와 KiwoomAuth를 통합한 사용자 진입점 파사드입니다.
+- [모델 (models)](https://meonji-gogo.github.io/kiwoompy/api/models/): 요청·응답 데이터 구조 및 타입 별칭을 정의하는 모듈입니다.
+- [예외 (exceptions)](https://meonji-gogo.github.io/kiwoompy/api/exceptions/): kiwoompy 커스텀 예외 계층을 정의하는 모듈입니다.
+- [유틸리티 (utils)](https://meonji-gogo.github.io/kiwoompy/api/utils/): 입력값 정규화 등 공통 유틸리티 함수를 제공하는 모듈입니다.
+- [조회 (query)](https://meonji-gogo.github.io/kiwoompy/api/query/): 시세, 잔고, 계좌, 종목 정보 등 각종 조회 기능을 담당하는 모듈입니다.
+- [주문 (order)](https://meonji-gogo.github.io/kiwoompy/api/order/): 매수·매도·정정·취소 등 주문 기능을 담당하는 모듈입니다.

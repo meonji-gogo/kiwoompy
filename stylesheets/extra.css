@@ -1,0 +1,67 @@
+/* 키움증권 브랜드 컬러 커스텀 테마
+ *
+ * 다크 모드 배경/레이어는 Material slate 기본값 사용
+ * Primary 컬러만 오버라이드
+ *
+ * Light Primary : #E5007E
+ * Dark Primary  : #F03E97
+ */
+
+/* ── 라이트 모드 ───────────────────────────── */
+
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:             #E5007E;
+  --md-primary-fg-color--light:      #ff4da6;
+  --md-primary-fg-color--dark:       #b3005f;
+  --md-primary-bg-color:             #ffffff;
+
+  --md-accent-fg-color:              #E5007E;
+  --md-accent-fg-color--transparent: rgba(229, 0, 126, 0.1);
+
+  --md-typeset-a-color:              #E5007E;
+}
+
+/* ── 다크 모드 — primary 컬러만 오버라이드 ── */
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:             #F03E97;
+  --md-primary-fg-color--light:      #f570b0;
+  --md-primary-fg-color--dark:       #E5007E;
+
+  --md-accent-fg-color:              #F03E97;
+  --md-accent-fg-color--transparent: rgba(240, 62, 151, 0.15);
+
+  --md-typeset-a-color:              #F03E97;
+}
+
+/* ── 공통 ──────────────────────────────────── */
+
+.md-header__title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.md-button--primary {
+  background-color: #E5007E;
+  border-color: #E5007E;
+  color: #ffffff;
+}
+
+.md-button--primary:hover {
+  background-color: #b3005f;
+  border-color: #b3005f;
+}
+
+.md-typeset code {
+  border-radius: 4px;
+}
+
+.md-nav__link--active {
+  color: #E5007E;
+  font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #F03E97;
+}
